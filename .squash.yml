@@ -1,0 +1,10 @@
+deployments:
+  default:
+    subdomain_port_mapping:
+      - django-cms:8000
+      - airflow:8080
+      - odoo:8069
+    domain:
+      - squashlabs.co
+      - deployster.io
+      - codescore.io
